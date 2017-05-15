@@ -1,0 +1,237 @@
+
+/*到店维修No。1*/
+#formye .btn{
+    width: 890px;
+    height: 126px;
+}
+#formye .btn .b_div{
+    height: 82px;
+    padding: 20px 0;
+}
+#formye .btn .b_div .b1{
+    width: 142px;
+    height: 42px;
+    border: 1px solid #118855;
+    color: #333333;
+    line-height: 42px;
+    text-indent: 12px;
+    float: left;
+    margin: 0 8px 0 0;
+    cursor:pointer;
+}
+#formye .btn .b_div .b1:first-child{
+    background:url("../imgs/jling/jt1.png")no-repeat 56px 20px;
+}
+#formye .btn .b_div .b1:nth-child(2){
+    background:url("../imgs/jling/jt1.png")no-repeat 80px 20px;
+}
+#formye .btn .b_div .addForm{
+    width: 590px;
+    height: 42px;
+    float: left;
+}
+#formye .btn .b_div .addForm .add_inp{
+    width: 470px;
+    height: 42px;
+    border: 1px solid #118855;
+    float: left;
+    text-indent: 12px;
+}
+#formye .btn .b_div .addForm .add_sub{
+    width: 120px;
+    height: 42px;
+    color: #fff;
+    background: #185;
+    cursor:pointer;
+    float: left;
+    border: none;
+}
+
+/*到店维修No。2*/
+#formye .btn .shop{
+    height:44px;
+    background: #f7f7f7;
+    border: 1px solid #d6d6d6;
+}
+#formye .btn .shop .shop_ul li{
+    float: left;
+    width: 122px;
+    height: 42px;
+}
+#formye .btn .shop .shop_ul li a{
+    display: block;
+    height: 42px;
+    width: 122px;
+    line-height: 42px;
+    text-align: center;
+    color:#666666 ;
+    font-size: 14px;
+}
+#formye .btn .shop .shop_ul li a:hover{
+    background: #fff;
+    border-left: 1px solid #d6d6d6;
+    border-right: 1px solid #d6d6d6;
+}
+#formye .btn .shop .shop_che{
+    height: 42px;
+    width: 388px;
+    line-height: 42px;
+    float: left;
+    margin: 0 0 0 10px;
+}
+#formye .btn .shop .shop_che input[type="checkbox"]{
+    vertical-align: middle;
+    margin: 0;
+}
+#formye .btn .shop .map_inp{
+    width: 124px;
+    height: 42px;
+    float: left;
+    padding: 6px 12px 6px 10px;
+}
+#formye .btn .shop .map_inp a{
+    display: inline-block;
+    width: 103px;
+    height: 30px;
+    border:1px solid #dbdbdb;
+    line-height: 30px;
+    color: #666;
+    text-indent: 34px;
+    background:#fff url("../imgs/jling/jt2.png")no-repeat 10px 0;
+}
+/*到店维修over*/
+
+
+
+/*右窗口开始*/
+#formye #fo_right{
+    width: 270px;
+    height: 695px;
+    position: absolute;
+    right:74px;
+    top:82px;
+    border: 1px solid #e6e6e6;
+}
+#formye #fo_right .right1{
+    width: 268px;
+    height: 43px;
+    background: #F7F7F7;
+    border-bottom: 1px solid #e6e6e6;
+    text-align: center;
+}
+#formye #fo_right .right1 h3{
+    font-size: 18px;
+    height: 43px;
+    line-height: 44px;
+}
+#formye #fo_right .right_ul{
+    height: 650px;
+}
+#formye #fo_right .right_ul li{
+    height: 93px;
+    padding: 20px 0;
+    border-bottom: 1px solid #e6e6e6;
+}
+#formye #fo_right .right_ul li div{
+    float: left;
+}
+#formye #fo_right .right_ul li .rg1{
+    width:56px;
+    height: 52px;
+    font-size: 26px;
+    color: #fc6621;
+    line-height: 52px;
+    text-align: center;
+}
+#formye #fo_right .right_ul li .rg2 a img{
+    width:52px;
+    height:52px;
+    border: 1px solid #e6e6e6;
+}
+#formye #fo_right .right_ul li .rg3{
+    padding:0 0 0 6px;
+    height: 52px;
+}
+#formye #fo_right .right_ul li .rg3 h4{
+    height: 28px;
+    line-height: 28px;
+    margin: 0 0 3px 0;
+}
+#formye #fo_right .right_ul li .rg3 h4 a{
+    color: #185;
+}
+#formye #fo_right .right_ul li .rg3 h4 a:hover{
+    text-decoration: underline;
+}
+#formye #fo_right .right_ul li .rg3 p{
+    height: 21px;
+    line-height: 21px;
+}
+/*右窗口结束*/
+
+
+/*地图开始*/
+#formye .fenye{
+    position: relative;
+}
+/*#formye .fenye #maps{*/
+    /*height:551px;*/
+    /*width: 890px;*/
+    /*position: absolute;*/
+    /*right:0;*/
+    /*top:0;*/
+    /*z-index: 99;*/
+/*}*/
+#formye .fenye #maps #container{
+    height:400px;
+    width: 600px;
+    position: absolute;
+    right:0;
+    top:0;
+    /*display: none;*/
+}
+
+/*map-信息窗体开始*/
+#con_id{
+    height:168px;
+    width: 351px;
+    border: 1px solid #cacaca;
+    background: #fff;
+    font-size: 12px;
+}
+#con_id h2{
+    height: 36px;
+    border-bottom: 1px solid #cacaca;
+    font-weight: bold;
+    background: #f6f6f6;
+    line-height: 36px;
+    text-indent: 10px;
+    margin: 0 0 20px 0;
+}
+#con_id p{
+    height:25px;
+    line-height: 25px;
+    text-indent: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#con_id p:last-child{
+    height: 16px;
+    margin: 20px 0 24px 0;
+}
+#con_id p:last-child a{
+    height:16px;
+    line-height: 16px;
+    text-indent: 5px;
+    font-size: 12px;
+    float: left;
+}
+#con_id p:last-child img{
+    float: left;
+    margin:0 0 0 20px;
+
+}
+/*map-信息窗体结束*/
+
+/*地图开始*/
